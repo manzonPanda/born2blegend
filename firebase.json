@@ -3,7 +3,7 @@
     "rules": "database.rules.json"
   },
   "hosting": {
-    "public": "dist/born2blegend",
+    "public": "born2blegend/dist/born2blegend",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -17,3 +17,4 @@
     ]
   }
 }
+
