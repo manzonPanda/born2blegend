@@ -11,6 +11,10 @@ import { AngularFireStorageModule } from '@angular/fire/compat/storage';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AngularFireFunctionsModule } from '@angular/fire/compat/functions';
 import { AngularFireMessagingModule } from '@angular/fire/compat/messaging';
+import {CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
+// import { NO_ERRORS_SCHEMA } from '@angular/compiler';
+
+
 @NgModule({
   declarations: [
     AppComponent
@@ -25,10 +29,12 @@ import { AngularFireMessagingModule } from '@angular/fire/compat/messaging';
     AngularFireStorageModule,
     AngularFirestoreModule,
     AngularFireFunctionsModule,
-    AngularFireMessagingModule 
+    AngularFireMessagingModule,
+    // htmlembed
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ]
 })
 export class AppModule { 
   
