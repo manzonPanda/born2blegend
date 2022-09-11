@@ -13,6 +13,7 @@ import { AngularFireFunctionsModule } from '@angular/fire/compat/functions';
 import { AngularFireMessagingModule } from '@angular/fire/compat/messaging';
 import {CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
 // import { NO_ERRORS_SCHEMA } from '@angular/compiler';
+import * as anime from 'animejs';
 
 
 @NgModule({

@@ -15,6 +15,7 @@ export const environment = {
     measurementId: "G-MWTE8NQC15"
 
   }
+    // ngrok command: ngrok http 4200 --host-header="localhost:4200"
 };
 
 /*
