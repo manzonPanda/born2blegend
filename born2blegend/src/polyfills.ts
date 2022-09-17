@@ -42,6 +42,9 @@
  *
  */
 
+import'aframe'
+import 'aframe-htmlembed-component'
+// require('aframe-htmlembed-component');
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
  */

@@ -27,122 +27,96 @@
   </svg>
 </div>
 
-<a-scene>
+<a-scene >
+  <a-camera id="camera"></a-camera>
   <a-assets >
-    <img id="bg" src="../assets/images/equirectangular3.jpg">
-    <!-- <img id="firstFeature" src="../assets/images/feature-1.png" timeout="50000"> -->
+    <img id="bg" src="../assets/images/equirectangular8.jpg">
   </a-assets> 
 
   <!-- th14 -->
-    <a-entity htmlembed position="0 4 -10" >
+    <a-entity  position="0 4 -10" >
       <a-image src="../assets/images/th14.png" width="12" height="10.5">
-        <a-text value="" scale="2 2 1"></a-text>
       </a-image>
     </a-entity>
 
     <!--sBowler-->
-    <a-entity htmlembed position="-3.712 1 -5" rotation="0 10 0"  animation="property: rotation; to: 0 1 0; loop: true; dur: 3000; dir:alternate;easing:easeInOutCubic">
+    <a-entity  position="-3.712 1 -5" rotation="0 10 0"  animation="property: rotation; to: 0 1 0; loop: true; dur: 3000; dir:alternate;easing:easeInOutCubic">
       <a-image src="../assets/images/sBowler.png" width="4" height="2.5">
-        <a-text value="" scale="2 2 1"></a-text>
       </a-image>
     </a-entity>
 
     <!--sDragon-->
-    <a-entity htmlembed position="6.712 8.5 -5" rotation="20 -20 0" animation="property: rotation; to: 20 -10 0; loop: true; dur: 4000; dir:alternate;easing:easeInOutCubic">
+    <a-entity  position="6.712 8.5 -5" rotation="20 -20 0" animation="property: rotation; to: 20 -10 0; loop: true; dur: 4000; dir:alternate;easing:easeInOutCubic">
       <a-image src="../assets/images/sDragon.png" width="4" height="2.5">
-        <a-text value="" scale="2 2 1"></a-text>
       </a-image>
     </a-entity>
 
     <!--sWitch-->
-    <a-entity htmlembed position="3.712 1.5 -5" rotation="0 -15 0" animation="property: position; to: 3.712 1.7 -5; loop: true; dur: 2000; dir:alternate;easing:easeInOutCubic">
+    <a-entity  position="3.712 1.5 -5" rotation="0 -15 0" animation="property: position; to: 3.712 1.7 -5; loop: true; dur: 2000; dir:alternate;easing:easeInOutCubic">
       <a-image src="../assets/images/sWitch.png" width="4" height="2.5">
-        <a-text value="" scale="2 2 1"></a-text>
       </a-image>
     </a-entity>
+
     <!-- front camera -->
-  <a-entity htmlembed position="0 1.5 -3" style="width: 700px;height: 500px;"
-    animation="property: rotation; to: 15 0 0; loop: true; dur: 3000; dir:alternate;easing:easeOutSine">
+  <a-entity htmlembed  position="0 1.5 -3.8" style="border:3px solid red" animation="property: rotation; to: 15 0 0; loop: true; dur: 3000; dir:alternate;easing:easeOutSine">
+    <a-image src="../assets/images/frame2.png" width="3" height="1.5" position="0 0 -0.1"></a-image>
+    <a-image src="../assets/images/info.PNG" width="2" height="0.8" position="0 -0.180 -0.05"></a-image>
+  </a-entity>
 
-    <div style="padding-left: 36%;padding-top: 10px;"
-      animation="property: rotation; to: 50 0 0; loop: true; dur: 4000;dir:alternate">
-      <img src="../assets/images/clanLogo.png">
-      <img src="../assets/images/flame.svg"
-        style="position: absolute; left: 194px; top: -68px; z-index: -1; rotate: 90; transform: rotate(330deg)">
-      <img src="../assets/images/flame.svg"
-        style="position: absolute; left: 250px; top: -62px; z-index: -1; rotate: 330; transform: rotate(330deg)">
-      <img src="../assets/images/flame.svg"
-        style="position: absolute; left: 293px; top: -59px; z-index: -1; rotate: 330; transform: rotate(330deg)">
-    </div>
-
-    <div style=" width: 80%;margin-left: 10%;">
-      <h1 style="color: #0071af;font-weight: 700;font-family: 'Raleway',sans-serif;text-align: center;">
-        🔰We always aim high💎🏆
-        <br>
-        #22RC8LRLL
-        <br>
-        11/3/2018
-        <br>
-        <img src="../assets/images/clanWarIcon.png" style="width: 95px;height:95px">
-        <img src="../assets/images/trophyPushingIcon.png" style="width: 95px;height:95px">
-        <img src="../assets/images/competitiveIcon.png" style="width: 95px;height:95px">
-      </h1>
-    </div>
-    <a-image src="../assets/images/frame2.png" width="3" height="1.5" position="0 0 -0.1">
-    </a-image>
+  <a-entity htmlembed position="0 2 -2.5" >
+        <div style="position: relative;">
+          <img src="../assets/images/clanLogo.png" style="width: 245px;height:135px;">
+      </div>
   </a-entity>
 
     <!-- feature-1 Magic-->
-    <a-entity htmlembed position="-3.712 1.5 -2.476" rotation="0 85 0">
+    <a-entity  position="-3.712 1.5 -2.476" rotation="0 85 0">
       <a-image src="../assets/images/feature-1.png" width="4" height="2.5">
-        <a-text value="" scale="2 2 1"></a-text>
       </a-image>
     </a-entity>
 
   <!-- mightyYak-->
-  <a-entity htmlembed position="-5.712 1.5 0.176" rotation="0 75 0" animation="property: position; to: -4.712 1.5 0.176; loop: true; dur: 3000; dir:alternate;easing:easeInOutCubic">
+  <a-entity  position="-5.712 1.5 0.176" rotation="0 75 0" animation="property: position; to: -4.712 1.5 0.176; loop: true; dur: 4500; dir:alternate;easing:easeInOutCubic">
     <a-image src="../assets/images/mightyYak.png" width="4" height="2.5">
-      <a-text value="" scale="2 2 1"></a-text>
     </a-image>
   </a-entity>
 
   <!-- feature-3 Event and Reward-->
-  <a-entity htmlembed position="3.712 1.5 -1.476" rotation="0 -70 0">
-    <a-image src="../assets/images/feature-3.png" width="4" height="2.5">
+  <a-entity  position="3.712 1.5 -1.476" rotation="0 -70 0">
+    <a-image src="../assets/images/feature-3.PNG" width="4" height="2.5">
       <a-text value="" scale="2 2 1"></a-text>
     </a-image>
   </a-entity>
 
     <!-- feature-2 Clan Management-->
-  <a-entity htmlembed position="0 1.5 5" rotation="0 180 0">
-    <a-image src="../assets/images/feature-2.png" width="6" height="3.5">
-      <a-text value="" scale="2 2 1"></a-text>
+  <a-entity  position="0 1.5 5" rotation="0 180 0">
+    <a-image src="../assets/images/feature-2.PNG" width="6" height="3.5">
+    </a-image>
+  </a-entity>
+
+    <!--headhunter-->
+  <a-entity  position="5 1.5 5" rotation="0 180 0">
+    <a-image src="../assets/images/headhunter.png" width="2" height="1">
     </a-image>
   </a-entity>
 
   <!-- archerQueen-->
-  <a-entity htmlembed position="-4 1.5 5" rotation="0 140 0" animation="property: position; to: -4 1.5 5.3; loop: true; dur: 5000; dir:alternate;easing:easeInOutCubic">
+  <a-entity  position="-4 1.5 5" rotation="0 140 0" animation="property: position; to: -4 1.5 5.3; loop: true; dur: 5000; dir:alternate;easing:easeInOutCubic">
     <a-image src="../assets/images/archerQueen.png" width="5" height="6.5">
-      <a-text value="" scale="2 2 1"></a-text>
     </a-image>
   </a-entity>
 
   <!--mountainGolem-->
-  <a-entity htmlembed position="10 14.5 15" rotation="0 220 0" animation="property: position; to: 10 14.5 11; loop: true; dur: 8000; dir:alternate;easing:easeInOutQuad">
+  <a-entity  position="10 14.5 15" rotation="0 220 0" animation="property: position; to: 10 14.5 11; loop: true; dur: 8000; dir:alternate;easing:easeInOutQuad">
     <a-image src="../assets/images/mountainGolem.png" width="42" height="47.5">
-      <a-text value="" scale="2 2 1"></a-text>
     </a-image>
   </a-entity>
 
     <!--oal-->
-    <a-entity htmlembed position="-5 8.5 9" rotation="0 140 0" animation="property: position; to: -5 8.9 9; loop: true; dur: 2000; dir:alternate;easing:easeInOutCubic">
+    <a-entity  position="-5 8.5 9" rotation="0 140 0" animation="property: position; to: -5 8.9 9; loop: true; dur: 2000; dir:alternate;easing:easeInOutCubic">
       <a-image src="../assets/images/oal.png" width="4" height="2.5">
-        <a-text value="" scale="2 2 1"></a-text>
       </a-image>
     </a-entity>
 
-  <!-- <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box> -->
-  <!-- <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder> -->
-  <!-- <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane> -->
   <a-sky src="#bg"></a-sky>
 </a-scene>

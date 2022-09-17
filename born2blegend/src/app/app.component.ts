@@ -1,9 +1,4 @@
 import { Component } from '@angular/core';
-// import * as anime from 'animejs';
-// import anime from '../../node_modules/animejs/lib/animejs'
-// import { default as anime } from '../../node_modules/animejs/lib/anime.es.js';
-// import * from 'animejs';
-// declare var anime: any;  
 
 @Component({
   selector: 'app-root',
@@ -23,9 +18,9 @@ export class AppComponent {
     document.body.appendChild(this.myScriptElement2);
  }
 ngOnInit(): void {
-
 }
 ngAfterViewInit(): void {
+  document.getElementById("camera")?.setAttribute('wasd-controls-enabled','false')
  
 }
 
