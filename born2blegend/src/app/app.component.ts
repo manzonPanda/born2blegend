@@ -16,8 +16,11 @@ export class AppComponent {
     this.myScriptElement2.src = "../assets/anime.js";
     document.body.appendChild(this.myScriptElement);
     document.body.appendChild(this.myScriptElement2);
- }
-ngOnInit(): void {
+  }
+  ngOnInit(): void {
+  // window.location.reload();
+  
+
 }
 ngAfterViewInit(): void {
   document.getElementById("camera")?.setAttribute('wasd-controls-enabled','false')

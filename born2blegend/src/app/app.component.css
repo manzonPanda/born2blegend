@@ -5,11 +5,63 @@
     margin-left: 25%;
 }
 
+.longImage{
+    z-index:5;
+    overflow: hidden;
+    height: 90px;
+    width: 450px;
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 10px;
+    bottom:0;
+}
+
+@keyframes scrollMe {
+    0% {transform: translateY(0%);}
+    5% {transform: translateY(0%);}
+    98% {
+        transform: translateY(-98%);
+    }
+    100% {
+        transform: translateY(-98%);
+    }
+}
+.longImage img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    /* transition: all 10s; */
+    /* transition: ease-out; */
+    /* transition: transform 330ms ease-in-out; */
+    /* animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); */
+    animation-timing-function: linear;
+    /* animation-fill-mode: forwards; */
+    transition-delay: 3s;
+    /* animation-duration: 10s; */
+    animation-delay: 3s;
+    animation: scrollMe 80s infinite linear;
+    /* animation-name: scrollMe; */
+    /* animation-iteration-count: 100; */
+}
+
 @media (max-width:820px) {
     #b2blContainer{
         width: 100% !important;
         height: 200px !important;
         margin-left: 0%;
+    }
+}
+
+@media (max-width:412px) {
+    .longImage{
+        width: 100% !important;
+        height: 80px !important;
+    }
+}
+@media (min-width:412px) and (max-width:540px) {
+    .longImage{
+        width: 100% !important;
+        height: 80px !important;
     }
 }
 
