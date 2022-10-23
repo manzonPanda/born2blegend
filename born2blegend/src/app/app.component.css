@@ -19,11 +19,14 @@
 @keyframes scrollMe {
     0% {transform: translateY(0%);}
     5% {transform: translateY(0%);}
+    95% {
+        transform: translateY(-98%);
+    }
     98% {
         transform: translateY(-98%);
     }
     100% {
-        transform: translateY(-98%);
+        transform: translateY(0%);
     }
 }
 .longImage img {
