@@ -5,14 +5,13 @@
 export const environment = {
   production: false,
   firebase:{
-    apiKey: "AIzaSyCUOX-PiclYwuDULVvjA7c91DYKQ_z2ioI",
-    authDomain: "born2blegend-7172022.firebaseapp.com",
-    databaseURL: "https://born2blegend-7172022-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "born2blegend-7172022",
-    storageBucket: "born2blegend-7172022.appspot.com",
-    messagingSenderId: "923696172148",
-    appId: "1:923696172148:web:1039585326989597ab5521",
-    measurementId: "G-MWTE8NQC15"
+    apiKey: "AIzaSyAq4NRaAgkdcabEdb-RtSv6GYP7oNUgEYQ",
+    authDomain: "firstanniversary-12202021.firebaseapp.com",
+    projectId: "firstanniversary-12202021",
+    storageBucket: "firstanniversary-12202021.appspot.com",
+    messagingSenderId: "131761188798",
+    appId: "1:131761188798:web:79018e92e89ca91a3153ef",
+    measurementId: "G-XCV32BCMV6"
 
   }
     // ngrok command: ngrok http 4200 --host-header="localhost:4200"
