@@ -12,6 +12,7 @@ Install firebase
 Steps to deploy to production:
 -ng build
 -firebase deploy
+    or firebase deploy --only hosting
 
 Helper links:
 https://www.quickpicturetools.com/en/combine_images/
