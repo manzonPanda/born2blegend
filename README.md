@@ -15,3 +15,5 @@ Steps to deploy to production:
 
 Helper links:
 https://www.quickpicturetools.com/en/combine_images/
+https://www.bestcssbuttongenerator.com/#/30
+https://pixlr.com/x/
