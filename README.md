@@ -14,7 +14,10 @@ Steps to deploy to production:
 -firebase deploy
     or firebase deploy --only hosting
 
+Production URL: https://born2blegend-7172022.web.app
+
 Helper links:
 https://www.quickpicturetools.com/en/combine_images/
+https://cleanup.pictures
 https://www.bestcssbuttongenerator.com/#/30
 https://pixlr.com/x/
